@@ -1,4 +1,5 @@
 import product from "../assets/Images/product.png";
+import Actions from "./Actions";
 const Packaged = () => {
   return (
     <>
@@ -56,6 +57,7 @@ const Packaged = () => {
           </div>
         </div>
       </div>
+      <Actions />
     </>
   );
 };
