@@ -1,6 +1,7 @@
 import food from "../assets/Images/foodmineral.png";
 import delivery from "../assets/Images/delivery.png";
 import packing from "../assets/Images/package.png";
+import Products from "./Products";
 const Services = () => {
   return (
     <>
@@ -41,6 +42,7 @@ const Services = () => {
           </div>
         </div>
       </div>
+      <Products />
     </>
   );
 };
