@@ -1,5 +1,6 @@
 import profile from "../assets/Images/profile.png";
 import star from "../assets/Images/star.png";
+import Reviews from "./Reviews";
 const Actions = () => {
   return (
     <>
@@ -59,6 +60,7 @@ const Actions = () => {
           </div>
         </div>
       </div>
+      <Reviews />
     </>
   );
 };

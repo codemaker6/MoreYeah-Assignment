@@ -247,6 +247,49 @@ ul li a {
   color: #007ba7;
   font-weight: 400;
 }
+/* Review Block */
+.reviewBlock {
+  background: white;
+  padding: 3% 10%;
+}
+.reviewHeading {
+  color: #007ba7;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.reviewTitle {
+  color: #007ba7;
+  font-weight: 400;
+}
+.reviewCard {
+  box-shadow: 0px 0px 34px 0px #0000002b;
+  padding: 1% 2%;
+  height: 290px;
+  width: 260px;
+  margin-top: 2%;
+}
+.reviewSection {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+.reviewer {
+  color: #007ba7;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 1%;
+}
+.reviewContent {
+  max-width: 300px;
+  color: #007ba7;
+  font-weight: 400;
+}
+.shot1 {
+  width: 340px;
+}
+.shot2 {
+  width: 320px;
+}
 /* Media Query Css */
 @media (min-width: 0px) and (max-width: 360px) {
   .text {
@@ -363,6 +406,29 @@ ul li a {
   .content {
     font-size: 9px;
   }
+  .reviewBlock {
+    padding: 3% 0.5%;
+  }
+  .reviewHeading {
+    font-size: 16px;
+  }
+  .reviewTitle {
+    font-size: 9px;
+  }
+  .reviewSection {
+    flex-wrap: wrap;
+  }
+  .reviewCard {
+    padding: 1% 1%;
+    height: 240px;
+    width: 240px;
+  }
+  .shot1 {
+    width: 250px;
+  }
+  .shot2 {
+    width: 250px;
+  }
 }
 @media (min-width: 360px) and (max-width: 450px) {
   .text {
@@ -460,6 +526,29 @@ ul li a {
   }
   .content {
     font-size: 10px;
+  }
+  .reviewBlock {
+    padding: 3% 0.5%;
+  }
+  .reviewHeading {
+    font-size: 18px;
+  }
+  .reviewTitle {
+    font-size: 12px;
+  }
+  .reviewSection {
+    flex-wrap: wrap;
+  }
+  .reviewCard {
+    padding: 1% 2%;
+    height: 210px;
+    width: 320px;
+  }
+  .shot1 {
+    width: 300px;
+  }
+  .shot2 {
+    width: 300px;
   }
 }
 @media (min-width: 450px) and (max-width: 550px) {
@@ -560,6 +649,33 @@ ul li a {
   .content {
     font-size: 12px;
   }
+  .reviewBlock {
+    padding: 3% 1%;
+  }
+  .reviewHeading {
+    font-size: 22px;
+  }
+  .reviewTitle {
+    font-size: 15px;
+  }
+  .reviewCard {
+    padding: 1% 1%;
+    height: 210px;
+    width: 210px;
+  }
+  .reviewContent {
+    font-size: 12px;
+  }
+  .reviewstar {
+    width: 20px;
+    height: 20px;
+  }
+  .shot1 {
+    width: 140px;
+  }
+  .shot2 {
+    width: 140px;
+  }
 }
 @media (min-width: 550px) and (max-width: 645px) {
   .text {
@@ -630,6 +746,29 @@ ul li a {
   .content {
     font-size: 14px;
   }
+  .reviewBlock {
+    padding: 3% 1%;
+  }
+  .reviewHeading {
+    font-size: 22px;
+  }
+  .reviewTitle {
+    font-size: 15px;
+  }
+  .reviewCard {
+    padding: 1% 1%;
+    height: 220px;
+    width: 210px;
+  }
+  .reviewContent {
+    font-size: 13px;
+  }
+  .shot1 {
+    width: 170px;
+  }
+  .shot2 {
+    width: 170px;
+  }
 }
 
 @media (min-width: 645px) and (max-width: 820px) {
@@ -650,7 +789,7 @@ ul li a {
     font-size: 14px;
   }
   .ReceipeBlock {
-    padding: 5% 2%;
+    padding: 5% 1%;
   }
   .receipeImageBlock {
     padding: 0% 3%;
@@ -688,6 +827,29 @@ ul li a {
     margin-top: 8%;
     font-size: 14px;
   }
+  .reviewBlock {
+    padding: 3% 1%;
+  }
+  .reviewHeading {
+    font-size: 22px;
+  }
+  .reviewTitle {
+    font-size: 15px;
+  }
+  .reviewCard {
+    padding: 1% 1%;
+    height: 220px;
+    width: 210px;
+  }
+  .reviewContent {
+    font-size: 13px;
+  }
+  .shot1 {
+    width: 180px;
+  }
+  .shot2 {
+    width: 180px;
+  }
 }
 @media (min-width: 820px) and (max-width: 950px) {
   .text {
@@ -722,6 +884,15 @@ ul li a {
   .card-body {
     left: 20px;
   }
+  .reviewBlock {
+    padding: 3% 2%;
+  }
+  .shot1 {
+    width: 270px;
+  }
+  .shot2 {
+    width: 270px;
+  }
 }
 @media (min-width: 950px) and (max-width: 1160px) {
   .text {
@@ -740,5 +911,8 @@ ul li a {
   }
   .productBlock {
     padding: 4% 2%;
+  }
+  .reviewBlock {
+    padding: 3% 3%;
   }
 }
