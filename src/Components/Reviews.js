@@ -1,6 +1,7 @@
 import star from "../assets/Images/star.png";
 import screenshot1 from "../assets/Images/dogshot1.png";
 import screenshot2 from "../assets/Images/dogshot2.png";
+import Cards from "./Cards";
 const Reviews = () => {
   return (
     <>
@@ -37,6 +38,7 @@ const Reviews = () => {
           </div>
         </div>
       </div>
+      <Cards />
     </>
   );
 };
