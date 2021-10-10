@@ -1,3 +1,5 @@
+import Footer from "./Footer";
+
 const Cards = () => {
   return (
     <>
@@ -21,6 +23,7 @@ const Cards = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
