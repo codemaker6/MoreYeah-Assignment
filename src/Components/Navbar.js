@@ -47,22 +47,22 @@ const Navbar = () => {
                 >
                   Products
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="/diary">
+                    <a className="dropdown-item" href="/diary">
                       Diary App
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/foodorder">
+                    <a className="dropdown-item" href="/foodorder">
                       Food Ordering App
                     </a>
                   </li>
                   <li>
-                    <hr class="dropdown-divider" />
+                    <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/hotel">
+                    <a className="dropdown-item" href="/hotel">
                       Hotel Booking App
                     </a>
                   </li>

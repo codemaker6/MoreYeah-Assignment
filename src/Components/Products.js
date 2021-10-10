@@ -13,32 +13,32 @@ const Products = () => {
             </p>
           </div>
           <div className="products">
-            <div class="card">
+            <div className="card">
               <img src={product} className="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Product name</h5>
-                <p class="card-text">Rs 1000</p>
+              <div className="card-body">
+                <h5 className="card-title">Product name</h5>
+                <p className="card-text">Rs 1000</p>
                 <a href="/buynow" class="btn btn-primary buyButton">
                   Buy Now
                 </a>
               </div>
             </div>
-            <div class="card">
+            <div className="card">
               <img src={product} className="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Product name</h5>
-                <p class="card-text">Rs 750</p>
+              <div className="card-body">
+                <h5 className="card-title">Product name</h5>
+                <p className="card-text">Rs 750</p>
                 <a href="/buynow" className="btn btn-primary buyButton">
                   Buy Now
                 </a>
               </div>
             </div>
-            <div class="card">
+            <div className="card">
               <img src={product} class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">product name</h5>
-                <p class="card-text">Rs 450</p>
-                <a href="/buynow" class="btn btn-primary  buyButton">
+              <div className="card-body">
+                <h5 className="card-title">product name</h5>
+                <p className="card-text">Rs 450</p>
+                <a href="/buynow" className="btn btn-primary  buyButton">
                   Buy Now
                 </a>
               </div>
